@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Scarlet Smp Website</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+<nav>
+
+<h2 class="logo">Scarlet smp</h2>
+
+<div class="nav-links">
+
+<a href="https://wa.me/6285163626042">WhatsApp</a>
+
+<a href="https://chat.whatsapp.com/CnkSV5SAvKSCHkTqG9EW49?mode=gi_t">WA Group</a>
+
+<a href="https://discord.gg/n8MBxSgNS">Discord</a>
+
+</div>
+
+</nav>
+
+
+<section class="hero">
+
+<h1 class="reveal">Welcome To Scarlet Smp</h1>
+
+<p class="reveal">Fast • Trusted • Secure</p>
+
+<a href="#payment" class="btn reveal">Payment</a>
+
+</section>
+
+
+<section id="payment" class="payment reveal">
+
+<h1>Payment Method</h1>
+
+<div class="payment-grid">
+
+<div class="pay-card" onclick="openQR()">
+
+<img src="qris.png">
+
+<h3>QRIS</h3>
+
+</div>
+
+<div class="pay-card" onclick="openDana()">
+
+<img src="dana.png">
+
+<h3>DANA</h3>
+
+</div>
+
+<div class="pay-card" onclick="openGopay()">
+
+<img src="gopay.png">
+
+<h3>GoPay</h3>
+
+</div>
+
+</div>
+
+</section>
+
+
+<div id="popup" class="popup">
+
+<div class="popup-content">
+
+<span class="close" onclick="closePopup()">×</span>
+
+<div id="popup-body"></div>
+
+</div>
+
+</div>
+
+<div id="toast" class="toast">
+Nomor berhasil di copy
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
